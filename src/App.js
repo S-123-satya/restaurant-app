@@ -1,6 +1,7 @@
 import "./App.css";
 import Header from "./components/Layout/Header";
 import Meals from "./components/Meals/Meals";
+import Cart from "./components/cart/Cart";
 
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
       <main>
         <Meals/>
       </main>
+      <Cart/>
     </>
   );
 }
